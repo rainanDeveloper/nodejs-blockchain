@@ -5,6 +5,7 @@
   "main": "src/main.ts",
   "scripts": {
     "build": "tsc",
+    "start": "node dist/main.js",
     "start:dev": "ts-node src/main",
     "dev": "ts-node-dev src/main",
     "test": "npm run mocha"
