@@ -1,0 +1,27 @@
+{
+  "name": "nodejs_blockchain",
+  "version": "1.0.0",
+  "description": "A simple nodejs blockchain example",
+  "main": "src/main.ts",
+  "scripts": {
+    "build": "tsc",
+    "start:dev": "ts-node src/main",
+    "dev": "ts-node-dev src/main",
+    "test": "npm run mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "test.git"
+  },
+  "keywords": [
+    "Nodejs",
+    "Blockchain"
+  ],
+  "author": "Rainan Miranda de Jesus <rainan.jesus@pm.me>",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.3.3"
+  }
+}
