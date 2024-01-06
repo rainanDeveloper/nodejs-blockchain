@@ -6,3 +6,12 @@ export type TxIn = {
   sig_script: string;
   sequence: 0xffffffff;
 };
+
+export type CoinbaseTxIn = {
+  hash: '';
+  index: 0xffffffff;
+  script_bytes: number;
+  height: number;
+  coinbase_script: string;
+  sequence: number;
+};
